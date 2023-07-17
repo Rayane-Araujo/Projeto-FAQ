@@ -6,23 +6,23 @@
    font-weight: 400;
 }
 
-html{
+html {
     background: linear-gradient(#9e3af0,#ffa530);
     min-height: 100%;
 }
 
-body{
+body {
     font-family: "kumbh Sans", sans-serif; 
 }
 
-main{
+main {
     display: flex; 
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.faq{
+.faq {
     width: 65%;
     min-height: 450;
     box-shadow: 0px 25px 50px rgba(0,0,0,0.3);
@@ -32,31 +32,31 @@ main{
     border-radius: 30px;   
 }
 
-.faq .ilustracao{
+.faq .ilustracao {
     position: relative;
     left: -120px;
     width: 50%;
     margin: 50px 0;
 }
 
-.faq .conteudo{
+.faq .conteudo {
     width: 40%;
     padding-bottom: 20px;
 }
 
-.faq .conteudo h1{
+.faq .conteudo h1 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.faq .conteudo .itens{
+.faq .conteudo .itens {
     list-style-type: none;
 }
 
-.faq .conteudo .itens .item{
+.faq .conteudo .itens .item {
     cursor: pointer;
-    background-image: url(../icone-seta-pra-baixo.png);
+    background-image: url(/src/imagens/icone-seta-pra-baixo.png);
     background-repeat: no-repeat;
     background-position: top 8px right 0;
     background-size: 12px;
@@ -64,72 +64,71 @@ main{
     margin: 10 0;
 }
 
-.faq .conteudo .itens .item:last-child{
+.faq .conteudo .itens .item:last-child {
     border-bottom: none;
 }
 
-.item .pergunta{
+.item .pergunta {
     padding-bottom: 15px;
     font-size: 18px;
     width: 90%
 }
 
-.item .pergunta:hover{
+.item .pergunta:hover {
     color:#f47c57;
 }
 
-.item .respostas{
+.item .respostas {
     display: none;
     padding-bottom: 15px;
 }
 
-/* ESTILOS DO ITEM ATIVO */
+
 .faq .itens .item.ativo h2 {
     font-weight: 700;
 }
 
 .faq  .itens .item.ativo .respostas {
     display: block;
-
 }
 
-.faq .itens .item.ativo{
-    background-image: url(../icone-seta-pra-cima.png);
+.faq .itens .item.ativo {
+    background-image: url(/src/imagens/icone-seta-pra-cima.png);
 }
 
 
-@media(max-width: 1140px){
-    .faq{
+@media(max-width: 1140px) {
+    .faq {
         flex-direction: column;
         width: 90%;
     }
 
-    .faq .conteudo{
+    .faq .conteudo {
         width: 100%;
     }
 
-    .faq .conteudo h1{
+    .faq .conteudo h1 {
         font-size: 24px;
         text-align: center;
     }
 
-    .faq .itens{
+    .faq .itens {
         width: 80%;
         margin: 0 auto;
     }
 
-    .faq .itens .pergunta{
+    .faq .itens .pergunta {
         font-size: 15px;
     }
 
-    .faq .ilustracao{
+    .faq .ilustracao {
         width: 40%;
         left: 0;
         margin: 30px 0;
     }
 
-    @media(max-width: 425px){
-        .faq{
+    @media(max-width: 425px) {
+        .faq {
             height: 540px
         }
     }
