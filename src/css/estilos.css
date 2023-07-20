@@ -56,7 +56,7 @@ main {
 
 .faq .conteudo .itens .item {
     cursor: pointer;
-    background-image: url(/src/imagens/icone-seta-pra-baixo.png);
+    background-image: url(../imagens/icone-seta-pra-baixo.png);
     background-repeat: no-repeat;
     background-position: top 8px right 0;
     background-size: 12px;
@@ -93,7 +93,7 @@ main {
 }
 
 .faq .itens .item.ativo {
-    background-image: url(/src/imagens/icone-seta-pra-cima.png);
+    background-image: url(../imagens/icone-seta-pra-cima.png);
 }
 
 
