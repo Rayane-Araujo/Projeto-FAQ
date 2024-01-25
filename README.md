@@ -14,4 +14,7 @@ Página faq com perguntas frequentes relacionado a programação. Foi adicionado
 
 [<img src="./src/imagens/faq.png" alt="tela inicial do projeto faq">] 
 
+### Desafios no desenvolvimento do FAQ
+O maior desafio foi a parte de responsividade, sem dúvidas foi algo que tirei de muito aprendizado e conhecimento para com esse projeto.
+
 
